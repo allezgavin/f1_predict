@@ -14,7 +14,7 @@ import datetime
 
 
 MINIMUM_UPDATE_INTERVAL = datetime.timedelta(days=1)
-src = 'sportsbook_data/fanduel.csv'
+src = 'C:/Users/Gavin/Desktop/F1_Result_Prediction/f1_predict/sportsbook_data/fanduel.csv'
 
 
 # In[3]:
