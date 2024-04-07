@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import csv
@@ -10,14 +10,14 @@ import pandas as pd
 import datetime
 
 
-# In[2]:
+# In[ ]:
 
 
 MINIMUM_UPDATE_INTERVAL = datetime.timedelta(days=1)
-src = 'C:/Users/Gavin/Desktop/F1_Result_Prediction/f1_predict/sportsbook_data/fanduel.csv'
+src = 'sportsbook_data/fanduel.csv'
 
 
-# In[3]:
+# In[ ]:
 
 
 from seleniumwire import webdriver
@@ -27,15 +27,16 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 
-options = {
-    'proxy': {
-        'http': 'http://3GJHIjCCFWGG8KLz:XAU1JUBDQtb59Tu2_country-us@geo.iproyal.com:12321',
-        'https': 'https://3GJHIjCCFWGG8KLz:XAU1JUBDQtb59Tu2_country-us@geo.iproyal.com:12321',
-    }
-}
+
+# In[ ]:
 
 
-# In[4]:
+import json
+with open('config.json', 'r') as file:
+    options = json.load(file)
+
+
+# In[ ]:
 
 
 def read_last_line(file_path):
@@ -47,7 +48,7 @@ def read_last_line(file_path):
         return lines[-1]
 
 
-# In[5]:
+# In[ ]:
 
 
 def calculate_elapsed_time(last_update_time):
@@ -58,7 +59,7 @@ def calculate_elapsed_time(last_update_time):
     return elapsed_time
 
 
-# In[6]:
+# In[ ]:
 
 
 def starts_with_any(string, substrings):
@@ -68,7 +69,7 @@ def starts_with_any(string, substrings):
     return False
 
 
-# In[7]:
+# In[ ]:
 
 
 def update1_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/motorsport?tab=formula-1'):
@@ -78,11 +79,15 @@ def update1_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/mot
     show_more_buttons = sel_driver.find_elements('xpath', '//div[@aria-label="Show more"]')
     for button in show_more_buttons:
         button.click()
-    
+
+# Grand Prix-specific outright betting may not be available immediately. Hence we relax the condition a bit.
+#     tab = sel_driver.find_element('xpath',
+#                               '//ul[contains(., " Grand Prix") and contains(., "F1 Outrights")][not(.//ul)]')
     tab = sel_driver.find_element('xpath',
-                              '//ul[contains(., " Grand Prix") and contains(., "F1 Outrights")][not(.//ul)]')
+                              '//ul[contains(., "F1 Outrights")][not(.//ul)]')
     
     rates_text = tab.text.split('\n')
+    #print(rates_text)
     
     with open(file_path, mode='a', newline='') as file:
         writer = csv.writer(file)
@@ -105,8 +110,7 @@ def update1_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/mot
                 i += 2
                 
             print("Fanduel outright betting data updated successfully.")
-        
-        i += 2
+            i += 2
         
         if rates_text[i] == 'F1 Outrights':
             outright_items = ['F1 Drivers Championship','F1 Constructors Championship', 'Betting Without']
@@ -162,9 +166,10 @@ def update1_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/mot
             print('Fanduel H2H data updated successfully.')
 
 
-# In[8]:
+# In[ ]:
 
 
+# This may not be available immediately after the last Grand Prix finishes
 def update2_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/motorsport?tab=f1-race-props'):
     try:
         sel_driver.get(url)
@@ -201,20 +206,21 @@ def update2_src(sel_driver, file_path, url = 'https://sportsbook.fanduel.com/mot
     # pd.read_csv(src).tail()
 
 
-# In[9]:
+# In[ ]:
 
 
 def update_src_all(file_path):
     # We use sel_driver instead of the usual nomenclature driver to avoid conflict with racing driver
     sel_driver = webdriver.Chrome(seleniumwire_options=options)
     
+    # Must use the same driver, or the "options" dictionary would be mutated and reset.
     update1_src(sel_driver, file_path)
     update2_src(sel_driver, file_path)
     
     sel_driver.quit()
 
 
-# In[10]:
+# In[ ]:
 
 
 test_mode = False
