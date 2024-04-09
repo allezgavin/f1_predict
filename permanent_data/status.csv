@@ -1,140 +1,140 @@
-statusId,status
-1,"Finished"
-2,"Disqualified"
-3,"Accident"
-4,"Collision"
-5,"Engine"
-6,"Gearbox"
-7,"Transmission"
-8,"Clutch"
-9,"Hydraulics"
-10,"Electrical"
-11,"+1 Lap"
-12,"+2 Laps"
-13,"+3 Laps"
-14,"+4 Laps"
-15,"+5 Laps"
-16,"+6 Laps"
-17,"+7 Laps"
-18,"+8 Laps"
-19,"+9 Laps"
-20,"Spun off"
-21,"Radiator"
-22,"Suspension"
-23,"Brakes"
-24,"Differential"
-25,"Overheating"
-26,"Mechanical"
-27,"Tyre"
-28,"Driver Seat"
-29,"Puncture"
-30,"Driveshaft"
-31,"Retired"
-32,"Fuel pressure"
-33,"Front wing"
-34,"Water pressure"
-35,"Refuelling"
-36,"Wheel"
-37,"Throttle"
-38,"Steering"
-39,"Technical"
-40,"Electronics"
-41,"Broken wing"
-42,"Heat shield fire"
-43,"Exhaust"
-44,"Oil leak"
-45,"+11 Laps"
-46,"Wheel rim"
-47,"Water leak"
-48,"Fuel pump"
-49,"Track rod"
-50,"+17 Laps"
-51,"Oil pressure"
-128,"+42 Laps"
-53,"+13 Laps"
-54,"Withdrew"
-55,"+12 Laps"
-56,"Engine fire"
-129,"Engine misfire"
-58,"+26 Laps"
-59,"Tyre puncture"
-60,"Out of fuel"
-61,"Wheel nut"
-62,"Not classified"
-63,"Pneumatics"
-64,"Handling"
-65,"Rear wing"
-66,"Fire"
-67,"Wheel bearing"
-68,"Physical"
-69,"Fuel system"
-70,"Oil line"
-71,"Fuel rig"
-72,"Launch control"
-73,"Injured"
-74,"Fuel"
-75,"Power loss"
-76,"Vibrations"
-77,"107% Rule"
-78,"Safety"
-79,"Drivetrain"
-80,"Ignition"
-81,"Did not qualify"
-82,"Injury"
-83,"Chassis"
-84,"Battery"
-85,"Stalled"
-86,"Halfshaft"
-87,"Crankshaft"
-88,"+10 Laps"
-89,"Safety concerns"
-90,"Not restarted"
-91,"Alternator"
-92,"Underweight"
-93,"Safety belt"
-94,"Oil pump"
-95,"Fuel leak"
-96,"Excluded"
-97,"Did not prequalify"
-98,"Injection"
-99,"Distributor"
-100,"Driver unwell"
-101,"Turbo"
-102,"CV joint"
-103,"Water pump"
-104,"Fatal accident"
-105,"Spark plugs"
-106,"Fuel pipe"
-107,"Eye injury"
-108,"Oil pipe"
-109,"Axle"
-110,"Water pipe"
-111,"+14 Laps"
-112,"+15 Laps"
-113,"+25 Laps"
-114,"+18 Laps"
-115,"+22 Laps"
-116,"+16 Laps"
-117,"+24 Laps"
-118,"+29 Laps"
-119,"+23 Laps"
-120,"+21 Laps"
-121,"Magneto"
-122,"+44 Laps"
-123,"+30 Laps"
-124,"+19 Laps"
-125,"+46 Laps"
-126,"Supercharger"
-127,"+20 Laps"
-130,"Collision damage"
-131,"Power Unit"
-132,"ERS"
-133,"+49 Laps"
-134,"+38 Laps"
-135,"Brake duct"
-136,"Seat"
-137,"Damage"
-138,"Debris"
-139,"Illness"
-140,"Undertray"
-141,"Cooling system"
+statusId,status,type
+1,Finished,o
+2,Disqualified,o
+3,Accident,d
+4,Collision,d
+5,Engine,c
+6,Gearbox,c
+7,Transmission,c
+8,Clutch,c
+9,Hydraulics,c
+10,Electrical,c
+11,+1 Lap,o
+12,+2 Laps,o
+13,+3 Laps,o
+14,+4 Laps,o
+15,+5 Laps,o
+16,+6 Laps,o
+17,+7 Laps,o
+18,+8 Laps,o
+19,+9 Laps,o
+20,Spun off,d
+21,Radiator,c
+22,Suspension,c
+23,Brakes,c
+24,Differential,c
+25,Overheating,c
+26,Mechanical,c
+27,Tyre,c
+28,Driver Seat,c
+29,Puncture,c
+30,Driveshaft,c
+31,Retired,c
+32,Fuel pressure,c
+33,Front wing,c
+34,Water pressure,c
+35,Refuelling,c
+36,Wheel,c
+37,Throttle,c
+38,Steering,c
+39,Technical,c
+40,Electronics,c
+41,Broken wing,c
+42,Heat shield fire,c
+43,Exhaust,c
+44,Oil leak,c
+45,+11 Laps,o
+46,Wheel rim,c
+47,Water leak,c
+48,Fuel pump,c
+49,Track rod,c
+50,+17 Laps,o
+51,Oil pressure,c
+128,+42 Laps,o
+53,+13 Laps,o
+54,Withdrew,o
+55,+12 Laps,o
+56,Engine fire,c
+129,Engine misfire,c
+58,+26 Laps,o
+59,Tyre puncture,c
+60,Out of fuel,c
+61,Wheel nut,c
+62,Not classified,o
+63,Pneumatics,c
+64,Handling,c
+65,Rear wing,c
+66,Fire,c
+67,Wheel bearing,c
+68,Physical,o
+69,Fuel system,c
+70,Oil line,c
+71,Fuel rig,c
+72,Launch control,c
+73,Injured,o
+74,Fuel,c
+75,Power loss,c
+76,Vibrations,c
+77,107% Rule,o
+78,Safety,c
+79,Drivetrain,c
+80,Ignition,c
+81,Did not qualify,o
+82,Injury,o
+83,Chassis,c
+84,Battery,c
+85,Stalled,c
+86,Halfshaft,c
+87,Crankshaft,c
+88,+10 Laps,o
+89,Safety concerns,c
+90,Not restarted,c
+91,Alternator,c
+92,Underweight,o
+93,Safety belt,c
+94,Oil pump,c
+95,Fuel leak,c
+96,Excluded,c
+97,Did not prequalify,o
+98,Injection,c
+99,Distributor,c
+100,Driver unwell,o
+101,Turbo,c
+102,CV joint,c
+103,Water pump,c
+104,Fatal accident,d
+105,Spark plugs,c
+106,Fuel pipe,c
+107,Eye injury,c
+108,Oil pipe,c
+109,Axle,c
+110,Water pipe,c
+111,+14 Laps,o
+112,+15 Laps,o
+113,+25 Laps,o
+114,+18 Laps,o
+115,+22 Laps,o
+116,+16 Laps,o
+117,+24 Laps,o
+118,+29 Laps,o
+119,+23 Laps,o
+120,+21 Laps,o
+121,Magneto,c
+122,+44 Laps,o
+123,+30 Laps,o
+124,+19 Laps,o
+125,+46 Laps,o
+126,Supercharger,c
+127,+20 Laps,o
+130,Collision damage,d
+131,Power Unit,c
+132,ERS,c
+133,+49 Laps,o
+134,+38 Laps,o
+135,Brake duct,c
+136,Seat,c
+137,Damage,d
+138,Debris,d
+139,Illness,o
+140,Undertray,o
+141,Cooling system,o
