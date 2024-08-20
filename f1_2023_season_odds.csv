@@ -1,0 +1,440 @@
+race,driver,podium_finish_odds
+Bahrain,Max Verstappen,1.25
+Bahrain,Charles Leclerc,1.65
+Bahrain,Sergio Perez,1.65
+Bahrain,Carlos Sainz,2.5
+Bahrain,Lewis Hamilton,2.8
+Bahrain,Fernando Alonso,3.25
+Bahrain,George Russell,4
+Bahrain,Lance Stroll,34
+Bahrain,Lando Norris,34
+Bahrain,Valtteri Bottas,34
+Bahrain,Zhou Guanyu,34
+Bahrain,Esteban Ocon,41
+Bahrain,Oscar Piastri,67
+Bahrain,Pierre Gasly,67
+Bahrain,Alex Albon,101
+Bahrain,Kevin Magnussen,101
+Bahrain,Nico Hulkenberg,101
+Bahrain,Nyck de Vries,126
+Bahrain,Yuki Tsunoda,126
+Bahrain,Logan Sargeant,151
+Saudi Arabia,Max Verstappen,1.2
+Saudi Arabia,Sergio Perez,1.45
+Saudi Arabia,Fernando Alonso,1.82
+Saudi Arabia,Charles Leclerc,2
+Saudi Arabia,Carlos Sainz,4
+Saudi Arabia,Lewis Hamilton,4.5
+Saudi Arabia,George Russell,5
+Saudi Arabia,Lance Stroll,7.5
+Saudi Arabia,Esteban Ocon,51
+Saudi Arabia,Pierre Gasly,51
+Saudi Arabia,Valtteri Bottas,51
+Saudi Arabia,Zhou Guanyu,67
+Saudi Arabia,Kevin Magnussen,101
+Saudi Arabia,Lando Norris,101
+Saudi Arabia,Nico Hulkenberg,101
+Saudi Arabia,Alex Albon,201
+Saudi Arabia,Oscar Piastri,201
+Saudi Arabia,Logan Sargeant,251
+Saudi Arabia,Nyck de Vries,501
+Saudi Arabia,Yuki Tsunoda,501
+Australia,Max Verstappen,1.2
+Australia,Sergio Perez,1.4
+Australia,Fernando Alonso,1.6
+Australia,Charles Leclerc,2.4
+Australia,Carlos Sainz,4.35
+Australia,Lewis Hamilton,4.5
+Australia,George Russell,5.5
+Australia,Esteban Ocon,51
+Australia,Lance Stroll,51
+Australia,Pierre Gasly,51
+Australia,Kevin Magnussen,101
+Australia,Lando Norris,101
+Australia,Nico Hulkenberg,101
+Australia,Oscar Piastri,101
+Australia,Valtteri Bottas,151
+Australia,Alex Albon,201
+Australia,Zhou Guanyu,201
+Australia,Logan Sargeant,251
+Australia,Nyck de Vries,251
+Australia,Yuki Tsunoda,251
+Azerbaijan,Max Verstappen,1.22
+Azerbaijan,Sergio Perez,1.44
+Azerbaijan,Fernando Alonso,1.62
+Azerbaijan,Lewis Hamilton,2.65
+Azerbaijan,Charles Leclerc,3.75
+Azerbaijan,George Russell,3.75
+Azerbaijan,Carlos Sainz,5.5
+Azerbaijan,Lance Stroll,7.5
+Azerbaijan,Lando Norris,34
+Azerbaijan,Esteban Ocon,41
+Azerbaijan,Pierre Gasly,41
+Azerbaijan,Alex Albon,81
+Azerbaijan,Nico Hulkenberg,101
+Azerbaijan,Kevin Magnussen,151
+Azerbaijan,Logan Sargeant,151
+Azerbaijan,Nyck de Vries,151
+Azerbaijan,Oscar Piastri,151
+Azerbaijan,Valtteri Bottas,151
+Azerbaijan,Yuki Tsunoda,151
+Azerbaijan,Zhou Guanyu,151
+Miami,Max Verstappen,1.2
+Miami,Sergio Perez,1.32
+Miami,Fernando Alonso,1.83
+Miami,Charles Leclerc,2.25
+Miami,Lewis Hamilton,3
+Miami,Carlos Sainz,5
+Miami,George Russell,5
+Miami,Lance Stroll,9
+Miami,Lando Norris,21
+Miami,Esteban Ocon,67
+Miami,Pierre Gasly,67
+Miami,Alex Albon,201
+Miami,Kevin Magnussen,251
+Miami,Logan Sargeant,251
+Miami,Nico Hulkenberg,251
+Miami,Nyck de Vries,251
+Miami,Oscar Piastri,251
+Miami,Valtteri Bottas,251
+Miami,Yuki Tsunoda,251
+Miami,Zhou Guanyu,251
+Monaco,Max Verstappen,1.3
+Monaco,Sergio Perez,1.5
+Monaco,Charles Leclerc,1.55
+Monaco,Fernando Alonso,2
+Monaco,Carlos Sainz,3.75
+Monaco,George Russell,4.5
+Monaco,Lewis Hamilton,4.5
+Monaco,Lance Stroll,9
+Monaco,Esteban Ocon,34
+Monaco,Lando Norris,34
+Monaco,Pierre Gasly,34
+Monaco,Kevin Magnussen,101
+Monaco,Nico Hulkenberg,101
+Monaco,Valtteri Bottas,101
+Monaco,Yuki Tsunoda,151
+Monaco,Oscar Piastri,201
+Monaco,Zhou Guanyu,201
+Monaco,Alex Albon,251
+Monaco,Logan Sargeant,251
+Monaco,Nyck de Vries,251
+Spain,Max Verstappen,1.2
+Spain,Sergio Perez,1.35
+Spain,Fernando Alonso,1.52
+Spain,Charles Leclerc,3
+Spain,Lewis Hamilton,3.5
+Spain,George Russell,4.75
+Spain,Carlos Sainz,5
+Spain,Lance Stroll,15
+Spain,Esteban Ocon,21
+Spain,Pierre Gasly,21
+Spain,Lando Norris,34
+Spain,Kevin Magnussen,126
+Spain,Nico Hulkenberg,126
+Spain,Yuki Tsunoda,126
+Spain,Valtteri Bottas,151
+Spain,Alex Albon,251
+Spain,Oscar Piastri,251
+Spain,Zhou Guanyu,251
+Spain,Logan Sargeant,501
+Spain,Nyck de Vries,501
+Canada,Max Verstappen,1.2
+Canada,Sergio Perez,1.5
+Canada,Fernando Alonso,1.75
+Canada,Lewis Hamilton,2
+Canada,George Russell,3
+Canada,Charles Leclerc,5
+Canada,Carlos Sainz,6
+Canada,Lance Stroll,17
+Canada,Esteban Ocon,21
+Canada,Pierre Gasly,23
+Canada,Lando Norris,67
+Canada,Kevin Magnussen,81
+Canada,Nico Hulkenberg,81
+Canada,Oscar Piastri,81
+Canada,Yuki Tsunoda,81
+Canada,Alex Albon,251
+Canada,Nyck de Vries,251
+Canada,Valtteri Bottas,251
+Canada,Zhou Guanyu,251
+Canada,Logan Sargeant,301
+Austria,Max Verstappen,1.2
+Austria,Fernando Alonso,1.65
+Austria,Sergio Perez,1.82
+Austria,Lewis Hamilton,1.9
+Austria,Charles Leclerc,3.4
+Austria,George Russell,3.75
+Austria,Carlos Sainz,5
+Austria,Esteban Ocon,17
+Austria,Lance Stroll,17
+Austria,Pierre Gasly,26
+Austria,Lando Norris,51
+Austria,Alex Albon,101
+Austria,Oscar Piastri,126
+Austria,Kevin Magnussen,151
+Austria,Logan Sargeant,151
+Austria,Nico Hulkenberg,151
+Austria,Nyck de Vries,151
+Austria,Valtteri Bottas,151
+Austria,Yuki Tsunoda,151
+Austria,Zhou Guanyu,151
+Silverstone,Max Verstappen,1.22
+Silverstone,Sergio Perez,1.57
+Silverstone,Lewis Hamilton,2
+Silverstone,Charles Leclerc,2.25
+Silverstone,Fernando Alonso,2.35
+Silverstone,Carlos Sainz,4.3
+Silverstone,George Russell,4.3
+Silverstone,Lando Norris,9
+Silverstone,Lance Stroll,26
+Silverstone,Esteban Ocon,51
+Silverstone,Oscar Piastri,51
+Silverstone,Pierre Gasly,67
+Silverstone,Alex Albon,101
+Silverstone,Kevin Magnussen,101
+Silverstone,Nico Hulkenberg,101
+Silverstone,Valtteri Bottas,151
+Silverstone,Zhou Guanyu,151
+Silverstone,Yuki Tsunoda,201
+Silverstone,Logan Sargeant,251
+Silverstone,Nyck de Vries,251
+Hungary,Max Verstappen,1.15
+Hungary,Sergio Perez,1.8
+Hungary,Fernando Alonso,1.9
+Hungary,Lewis Hamilton,2.2
+Hungary,Lando Norris,3.5
+Hungary,Charles Leclerc,3.75
+Hungary,Carlos Sainz,4.5
+Hungary,George Russell,5
+Hungary,Oscar Piastri,17
+Hungary,Esteban Ocon,51
+Hungary,Lance Stroll,51
+Hungary,Pierre Gasly,51
+Hungary,Daniel Ricciardo,67
+Hungary,Alex Albon,101
+Hungary,Yuki Tsunoda,151
+Hungary,Kevin Magnussen,201
+Hungary,Nico Hulkenberg,201
+Hungary,Logan Sargeant,251
+Hungary,Valtteri Bottas,251
+Hungary,Zhou Guanyu,251
+Belgium,Max Verstappen,1.15
+Belgium,Sergio Perez,1.65
+Belgium,Lando Norris,1.7
+Belgium,Lewis Hamilton,2.45
+Belgium,George Russell,3.75
+Belgium,Oscar Piastri,4
+Belgium,Fernando Alonso,5.5
+Belgium,Charles Leclerc,6
+Belgium,Carlos Sainz,7
+Belgium,Alex Albon,10
+Belgium,Lance Stroll,67
+Belgium,Esteban Ocon,101
+Belgium,Pierre Gasly,101
+Belgium,Daniel Ricciardo,151
+Belgium,Yuki Tsunoda,151
+Belgium,Kevin Magnussen,251
+Belgium,Logan Sargeant,251
+Belgium,Nico Hulkenberg,251
+Belgium,Valtteri Bottas,251
+Belgium,Zhou Guanyu,251
+Zandvoort,Max Verstappen,1.07
+Zandvoort,Sergio Perez,1.5
+Zandvoort,Lando Norris,2.2
+Zandvoort,Lewis Hamilton,2.2
+Zandvoort,Charles Leclerc,3.25
+Zandvoort,Oscar Piastri,4.5
+Zandvoort,Carlos Sainz,7
+Zandvoort,Fernando Alonso,7
+Zandvoort,George Russell,7
+Zandvoort,Lance Stroll,51
+Zandvoort,Alex Albon,101
+Zandvoort,Esteban Ocon,101
+Zandvoort,Pierre Gasly,101
+Zandvoort,Valtteri Bottas,151
+Zandvoort,Zhou Guanyu,151
+Zandvoort,Daniel Ricciardo,251
+Zandvoort,Kevin Magnussen,251
+Zandvoort,Logan Sargeant,251
+Zandvoort,Nico Hulkenberg,251
+Zandvoort,Yuki Tsunoda,251
+Monza,Max Verstappen,1.1
+Monza,Sergio Perez,1.6
+Monza,Lando Norris,2.5
+Monza,Fernando Alonso,2.75
+Monza,Lewis Hamilton,2.75
+Monza,Charles Leclerc,5
+Monza,George Russell,5
+Monza,Carlos Sainz,7
+Monza,Oscar Piastri,7
+Monza,Alex Albon,17
+Monza,Esteban Ocon,67
+Monza,Lance Stroll,67
+Monza,Logan Sargeant,67
+Monza,Pierre Gasly,67
+Monza,Kevin Magnussen,201
+Monza,Liam Lawson,201
+Monza,Nico Hulkenberg,201
+Monza,Valtteri Bottas,201
+Monza,Yuki Tsunoda,201
+Monza,Zhou Guanyu,201
+Singapore,Max Verstappen,1.1
+Singapore,Sergio Perez,1.5
+Singapore,Lewis Hamilton,2.6
+Singapore,Fernando Alonso,3.2
+Singapore,Lando Norris,3.2
+Singapore,Charles Leclerc,4
+Singapore,George Russell,4
+Singapore,Carlos Sainz,5
+Singapore,Oscar Piastri,5
+Singapore,Lance Stroll,34
+Singapore,Alex Albon,67
+Singapore,Esteban Ocon,67
+Singapore,Pierre Gasly,67
+Singapore,Liam Lawson,151
+Singapore,Logan Sargeant,151
+Singapore,Valtteri Bottas,151
+Singapore,Yuki Tsunoda,151
+Singapore,Zhou Guanyu,151
+Singapore,Kevin Magnussen,301
+Singapore,Nico Hulkenberg,301
+Japan,Max Verstappen,1.1
+Japan,Sergio Perez,1.6
+Japan,Lando Norris,2.35
+Japan,Lewis Hamilton,2.75
+Japan,George Russell,3.5
+Japan,Carlos Sainz,3.75
+Japan,Charles Leclerc,3.75
+Japan,Oscar Piastri,4.5
+Japan,Fernando Alonso,7
+Japan,Esteban Ocon,67
+Japan,Lance Stroll,67
+Japan,Pierre Gasly,67
+Japan,Alex Albon,101
+Japan,Liam Lawson,151
+Japan,Yuki Tsunoda,151
+Japan,Logan Sargeant,201
+Japan,Valtteri Bottas,201
+Japan,Kevin Magnussen,251
+Japan,Nico Hulkenberg,251
+Japan,Zhou Guanyu,251
+Qatar,Max Verstappen,1.1
+Qatar,Lando Norris,1.6
+Qatar,Sergio Perez,1.75
+Qatar,Oscar Piastri,2.5
+Qatar,Lewis Hamilton,3.8
+Qatar,Carlos Sainz,5.5
+Qatar,Charles Leclerc,5.5
+Qatar,George Russell,6
+Qatar,Fernando Alonso,10
+Qatar,Alex Albon,67
+Qatar,Esteban Ocon,67
+Qatar,Lance Stroll,67
+Qatar,Pierre Gasly,67
+Qatar,Kevin Magnussen,151
+Qatar,Liam Lawson,151
+Qatar,Valtteri Bottas,151
+Qatar,Yuki Tsunoda,151
+Qatar,Zhou Guanyu,151
+Qatar,Logan Sargeant,301
+Qatar,Nico Hulkenberg,301
+United States,Max Verstappen,1.1
+United States,Lando Norris,1.6
+United States,Oscar Piastri,1.8
+United States,Sergio Perez,2.5
+United States,Lewis Hamilton,3
+United States,George Russell,3.5
+United States,Carlos Sainz,6
+United States,Charles Leclerc,6
+United States,Fernando Alonso,11
+United States,Esteban Ocon,51
+United States,Pierre Gasly,51
+United States,Alex Albon,151
+United States,Lance Stroll,151
+United States,Daniel Ricciardo,301
+United States,Valtteri Bottas,301
+United States,Yuki Tsunoda,301
+United States,Zhou Guanyu,301
+United States,Kevin Magnussen,601
+United States,Logan Sargeant,601
+United States,Nico Hulkenberg,601
+Mexico,Max Verstappen,1.1
+Mexico,Lando Norris,1.6
+Mexico,Sergio Perez,1.75
+Mexico,Oscar Piastri,2.5
+Mexico,Lewis Hamilton,3.8
+Mexico,Carlos Sainz,5.5
+Mexico,Charles Leclerc,5.5
+Mexico,George Russell,6
+Mexico,Fernando Alonso,10
+Mexico,Alex Albon,67
+Mexico,Esteban Ocon,67
+Mexico,Lance Stroll,67
+Mexico,Pierre Gasly,67
+Mexico,Kevin Magnussen,151
+Mexico,Liam Lawson,151
+Mexico,Valtteri Bottas,151
+Mexico,Yuki Tsunoda,151
+Mexico,Zhou Guanyu,151
+Mexico,Logan Sargeant,301
+Mexico,Nico Hulkenberg,301
+Brazil,Max Verstappen,1.1
+Brazil,Lewis Hamilton,1.55
+Brazil,Lando Norris,1.7
+Brazil,Sergio Perez,2.6
+Brazil,George Russell,3
+Brazil,Charles Leclerc,4.5
+Brazil,Carlos Sainz,5
+Brazil,Oscar Piastri,5
+Brazil,Fernando Alonso,17
+Brazil,Esteban Ocon,101
+Brazil,Pierre Gasly,101
+Brazil,Daniel Ricciardo,251
+Brazil,Alex Albon,251
+Brazil,Kevin Magnussen,251
+Brazil,Lance Stroll,251
+Brazil,Logan Sargeant,251
+Brazil,Nico Hulkenberg,251
+Brazil,Valtteri Bottas,251
+Brazil,Yuki Tsunoda,251
+Brazil,Zhou Guanyu,251
+Las Vegas,Max Verstappen,1.15
+Las Vegas,Lando Norris,1.5
+Las Vegas,Carlos Sainz,2.6
+Las Vegas,Charles Leclerc,2.6
+Las Vegas,Lewis Hamilton,2.6
+Las Vegas,Sergio Perez,2.6
+Las Vegas,George Russell,7
+Las Vegas,Oscar Piastri,7
+Las Vegas,Fernando Alonso,12
+Las Vegas,Alex Albon,67
+Las Vegas,Esteban Ocon,151
+Las Vegas,Lance Stroll,151
+Las Vegas,Pierre Gasly,151
+Las Vegas,Kevin Magnussen,251
+Las Vegas,Logan Sargeant,251
+Las Vegas,Nico Hulkenberg,251
+Las Vegas,Valtteri Bottas,251
+Las Vegas,Yuki Tsunoda,251
+Las Vegas,Zhou Guanyu,251
+Abu Dhabi,Max Verstappen,1.12
+Abu Dhabi,Lando Norris,1.75
+Abu Dhabi,Sergio Perez,1.85
+Abu Dhabi,Charles Leclerc,2.75
+Abu Dhabi,Lewis Hamilton,2.75
+Abu Dhabi,Carlos Sainz,4
+Abu Dhabi,George Russell,4
+Abu Dhabi,Oscar Piastri,4.5
+Abu Dhabi,Fernando Alonso,13
+Abu Dhabi,Esteban Ocon,101
+Abu Dhabi,Lance Stroll,101
+Abu Dhabi,Pierre Gasly,101
+Abu Dhabi,Alex Albon,151
+Abu Dhabi,Daniel Ricciardo,201
+Abu Dhabi,Valtteri Bottas,201
+Abu Dhabi,Yuki Tsunoda,201
+Abu Dhabi,Kevin Magnussen,251
+Abu Dhabi,Logan Sargeant,251
+Abu Dhabi,Nico Hulkenberg,251
+Abu Dhabi,Zhou Guanyu,251
